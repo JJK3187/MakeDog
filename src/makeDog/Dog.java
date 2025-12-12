@@ -2,8 +2,8 @@ package makeDog;
 
 public class Dog {
 
-    private String name;
-    private String breed;
+    private final String name;
+    private final String breed;
 
     public Dog(String name, String breed) {
         this.name = name;
