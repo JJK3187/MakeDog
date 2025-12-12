@@ -1,6 +1,5 @@
 package makeDog;
 
-import javax.lang.model.element.NestingKind;
 
 public class Main {
 
@@ -14,9 +13,9 @@ public class Main {
         System.out.println("두번째 개의 이름과 종은: " + dog2.getName() + ", " + dog2.getBreed());
         System.out.println("세번째 개의 이름과 종은: " + dog3.getName() + ", " + dog3.getBreed());
 
-        dog1.step();
-        dog2.step();
-        dog3.step();
+        String step = dog1.step();
+        String step2 = dog2.step();
+        String step3 = dog3.step();
 
     }
 }
